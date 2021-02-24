@@ -1,0 +1,43 @@
+= Notes: Power Shell 
+Andreas Felix Häberle <felix@42sol.eu>
+v2021.00, 2021-02-24: remark
+:attributes:
+:experimental: true
+:icons: font
+:c: icon:minus-square[1x]
+:_: icon:square[1x]
+:x: icon:check-square[1x,role=blue] 
+:open: icon:square[1x]
+:done: icon:check-square[1x,role=blue] 
+:active: icon:play-circle[1x] 
+// https://fontawesome.com/icons?d=gallery&q=circle
+:waiting: icon:pause-circle[1x]
+:blocked: icon:exclamation-circle[1x]
+:unkown: icon:question-circle[1x]
+:tools: icon:tools[2x]
+
+== Modules (Libraries)
+
+[%hardbreaks]
+{_} Burnttoast:: messages and simple uis
+{_} posh-git:: git status information on the prompt
+{_} oh-my-git:: usability and nice color fonts footnote:[use with nerd font]
+{_} audio-control:: audio setup from scripts
+{c} test:: more
+
+== Tasks
+
+{_} learn how to sign a script
+{_} find a good book (manning?)
+
+== Variables
+
+|===
+| Name | Content
+
+| `$Profile`  | full filepath to startup profile
+| `$Env:path` | windows path variable
+| `$Home`, `$env:home`  | users home path
+| `$Env:PSModulePath`   | modul-pfade of user
+
+|===

@@ -1,0 +1,39 @@
+= collection
+Andreas Felix Häberle <felix@42sol.eu>
+v2021.00, 2021-02-24: remark
+:attributes:
+:experimental: true
+:icons: font
+:c: icon:minus-square[1x]
+:_: icon:square[1x]
+:x: icon:check-square[1x,role=blue] 
+:open: icon:square[1x]
+:done: icon:check-square[1x,role=blue] 
+:active: icon:play-circle[1x] 
+// https://fontawesome.com/icons?d=gallery&q=circle
+:waiting: icon:pause-circle[1x]
+:blocked: icon:exclamation-circle[1x]
+:unkown: icon:question-circle[1x]
+:tools: icon:tools[2x]
+
+== Browsers
+
+.Tasks_Browsers
+[%collapsible%hardbreak]
+====
+{x} start table
+{_} add important notes
+====
+
+[cols="2a,1a,1a,1a,2a"]
+|===
+| Action      | Firefox  | Chrome | Edge | Notes
+
+// place them in alphabetiacl order
+// 1.column: subject + verb
+| Cache reset 3+| kbd:[Ctrl+Shift+Del]  | ...
+| Developer mode 3+| kbd:[F12] | ...
+| Fullscreen toggle 3+| kbd:[F11] | ...
+
+|===
+
